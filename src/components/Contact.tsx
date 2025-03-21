@@ -8,7 +8,7 @@ const Contact = () => {
       icon: Mail,
       title: "Email",
       value: "ankitakanwar21@gmail.com",
-      link: "mailto:ankitakanwar21"
+      link: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxGmQwMXJTwslkRKmdBFctVVWhFBbSnDplllmVFGHzhZxLlnlMnwbllDTMBvprpfvXnqCQ"
     },
     {
       icon: Phone,
