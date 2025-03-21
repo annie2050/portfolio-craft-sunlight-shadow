@@ -10,16 +10,16 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <a href="#" className="text-xl font-bold tracking-tight">
-              <span className="text-primary">Annie</span>Shkhawat
+              <span className="text-primary">Ankita</span>Kanwar
             </a>
             <p className="text-sm text-muted-foreground mt-1">
-              Software Engineer & ML Enthusiast
+              Software Engineer
             </p>
           </div>
 
           <div className="flex items-center gap-4 mb-4 md:mb-0">
             <a
-              href="https://github.com/annieshkhawat"
+              href="https://github.com/annie2050"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-secondary transition-colors"
@@ -47,7 +47,7 @@ const Footer = () => {
 
           <div className="flex flex-col items-center md:items-end">
             <p className="text-sm text-muted-foreground">
-              &copy; {currentYear} Annie Shkhawat. All rights reserved.
+              &copy;{currentYear}Ankita Kanwar. All rights reserved.
             </p>
           </div>
         </div>

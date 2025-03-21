@@ -15,7 +15,7 @@ const About = () => {
           <div className="lg:col-span-1 animate-slide-in">
             <div className="relative mx-auto w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden neo">
               <img
-                src="https://avatars.githubusercontent.com/u/109106077?v=4"
+                src="https://media.licdn.com/dms/image/v2/C5103AQHA5Qb-bdDhwQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1560153049846?e=1747872000&v=beta&t=hZXSNXFWanfaagZymIL0R3BVDk29Jjsd7XnoRMlew1w"
                 alt="Profile Photo"
                 className="w-full h-full object-cover"
               />
@@ -24,32 +24,32 @@ const About = () => {
 
           <div className="lg:col-span-2 animate-slide-in delay-100">
             <h3 className="text-2xl font-semibold mb-4">
-              Software Engineer & ML Enthusiast
+              Software Engineer
             </h3>
             <p className="text-muted-foreground mb-6">
-              I'm Annie Shkhawat, currently pursuing my Masters in Computer Science from the University of California, Riverside. My journey in technology has been driven by a passion for solving complex problems through innovative solutions. With a background in full-stack development and machine learning, I bring a blend of technical expertise and creative thinking to every project.
-            </p>
+            💻 Hi, I’m Ankita Kanwar! A software developer passionate about building efficient, user-friendly web applications using ASP.NET and SQL Server.            </p>
             
             <p className="text-muted-foreground mb-6">
-              I've worked on diverse projects ranging from web applications to AI-driven solutions, continually expanding my skills and embracing new technologies. My experience at Amazon as a SDE intern and at UC Riverside as a Graduate Student Researcher has sharpened my abilities in software development, data analysis, and machine learning implementation.
-            </p>
+            I am a detail-oriented and motivated software developer with over a year of experience specializing in ASP.NET WebForms, Microsoft SQL Server, and modern web technologies. I have worked extensively on accounting software solutions in the chemical industry, focusing on financial reporting, integration, and system optimization.
+            With expertise in SAP Crystal Reports, WhatsApp API notifications, and email alerts, I develop solutions that enhance user engagement and improve system efficiency. My passion lies in building responsive, simple, and creative UI designs that are optimized for both desktop and mobile experiences.
+            Apart from coding, I love music, gardening, and traveling, and I enjoy exploring human psychology through storytelling.            </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               <div>
                 <p className="font-medium">Name:</p>
-                <p className="text-muted-foreground">Annie Shkhawat</p>
+                <p className="text-muted-foreground">Ankita Kanwar</p>
               </div>
               <div>
                 <p className="font-medium">Email:</p>
-                <p className="text-muted-foreground">annieshkhawt@gmail.com</p>
+                <p className="text-muted-foreground">ankitakanwar21@gmail.com</p>
               </div>
               <div>
                 <p className="font-medium">Location:</p>
-                <p className="text-muted-foreground">Riverside, California</p>
+                <p className="text-muted-foreground">Jodhpur, India</p>
               </div>
               <div>
                 <p className="font-medium">Degree:</p>
-                <p className="text-muted-foreground">Masters in Computer Science</p>
+                <p className="text-muted-foreground">Electronics and Communication Engineering</p>
               </div>
             </div>
 

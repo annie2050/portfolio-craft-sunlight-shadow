@@ -41,7 +41,7 @@ const Navbar = () => {
               href="#"
               className="text-xl font-bold tracking-tight transition-colors hover:text-primary"
             >
-              <span className="text-primary">Annie</span>Shkhawat
+              <span className="text-primary">Ankita</span>Kanwar
             </a>
           </div>
 

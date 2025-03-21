@@ -7,20 +7,20 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "annieshkhawt@gmail.com",
-      link: "mailto:annieshkhawt@gmail.com"
+      value: "ankitakanwar21@gmail.com",
+      link: "mailto:ankitakanwar21"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      value: "+91 (701) 447-1361",
+      link: "tel:+917014471361"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Riverside, California",
-      link: "https://maps.google.com/?q=Riverside,California"
+      value: "Jodhpur , India",
+      link: "https://maps.google.com/?q=Jodhpur,India"
     }
   ];
 
@@ -28,7 +28,7 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      url: "https://github.com/annieshkhawat"
+      url: "https://github.com/annie2050"
     },
     {
       icon: Linkedin,
