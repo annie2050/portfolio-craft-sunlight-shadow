@@ -6,34 +6,17 @@ import { cn } from "@/lib/utils";
 const Projects = () => {
   const [activeTab, setActiveTab] = useState("all");
 
-  const projects = [
+  const projects = [ 
     {
-      title: "Healthcare AI Diagnostic Tool",
-      description: "A machine learning system that assists medical professionals in diagnosing diseases from medical imaging data.",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      tags: ["ML", "Python", "TensorFlow", "Healthcare"],
-      category: "ml",
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution with payment processing, inventory management, and user authentication.",
-      image: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Portfolio Website",
+      description: "A personal portfolio website showcasing projects, experience, and skills with a modern UI.",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      tags: ["React", "TypeScript", "TailwindCSS", "Framer Motion"],
       category: "web",
-      github: "#",
+      github: "https://github.com/annie2050/portfolio-craft-sunlight-shadow",
       demo: "#"
     },
-    {
-      title: "Smart Home Automation System",
-      description: "An IoT platform for controlling and monitoring smart home devices with voice commands and mobile app.",
-      image: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      tags: ["IoT", "React Native", "Node.js", "AWS"],
-      category: "other",
-      github: "#",
-      demo: "#"
-    },
+    
     {
       title: "Financial Analytics Dashboard",
       description: "An interactive dashboard that visualizes financial data and provides insights for investment decisions.",
@@ -43,25 +26,18 @@ const Projects = () => {
       github: "#",
       demo: "#"
     },
+   
     {
-      title: "Natural Language Processing API",
-      description: "A REST API service for text analysis, sentiment classification, and entity recognition.",
-      image: "https://images.unsplash.com/photo-1555421689-d68471e189f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      tags: ["Python", "Flask", "NLP", "Docker"],
-      category: "ml",
-      github: "#",
-      demo: "#"
-    },
-    {
-      title: "Task Management Application",
-      description: "A collaborative project management tool with real-time updates and task tracking.",
-      image: "https://images.unsplash.com/photo-1497493292307-31c376b6e479?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-      tags: ["React", "Firebase", "Redux", "Material UI"],
+      title: "Accounting Software for Chemical Industry",
+      description: "A Custom accounting software for managing finances, customers, and suppliers in the chemical industry.",
+      image: "https://images.unsplash.com/photo-1607083207371-04e3513b8701?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      tags: [".NET", "MSSQL", "JavaScript", "SAP Crystal Reports"],
       category: "web",
       github: "#",
-      demo: "#"
+      demo: "https://trading.guljaginfotech.in/Login/Login.aspx"
     }
-  ];
+];
+
 
   const filteredProjects =
     activeTab === "all"
@@ -160,7 +136,7 @@ const Projects = () => {
         {/* More projects link */}
         <div className="text-center mt-12 animate-fade-in">
           <a
-            href="https://github.com/annieshkhawat"
+            href="https://github.com/annie2050"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"

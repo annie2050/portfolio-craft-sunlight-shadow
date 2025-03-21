@@ -5,50 +5,23 @@ import { cn } from "@/lib/utils";
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Development Engineer Intern",
-      company: "Amazon",
-      date: "June 2023 - August 2023",
-      location: "Phoenix, AZ",
+      title: "Trainee Software Developer",
+      company: "Guljag Industries Limited, Jodhpur",
+      date: "Jan 2024 – Present",
+      location: "Jodhpur, India",
       description: [
-        "Developed and deployed an internal web application utilizing React, TypeScript, and AWS services that streamlined warehouse operations.",
-        "Implemented data visualization features to help managers analyze operational metrics more effectively.",
-        "Collaborated with cross-functional teams to gather requirements and iterate on solutions."
-      ]
-    },
-    {
-      title: "Graduate Student Researcher",
-      company: "University of California, Riverside",
-      date: "March 2023 - Present",
-      location: "Riverside, CA",
-      description: [
-        "Conducting research on machine learning algorithms for healthcare applications.",
-        "Designing and implementing deep learning models for medical image analysis.",
-        "Collaborating with faculty and peers on research papers and presentations."
-      ]
-    },
-    {
-      title: "Teaching Assistant",
-      company: "University of California, Riverside",
-      date: "January 2023 - March 2023",
-      location: "Riverside, CA",
-      description: [
-        "Assisted professors in teaching undergraduate computer science courses.",
-        "Led discussion sections and provided one-on-one help to students.",
-        "Evaluated student assignments and provided constructive feedback."
-      ]
-    },
-    {
-      title: "Software Engineer",
-      company: "FinTech Startup",
-      date: "June 2022 - December 2022",
-      location: "Remote",
-      description: [
-        "Developed full-stack applications using React, Node.js, and MongoDB.",
-        "Implemented RESTful APIs to facilitate communication between front-end and back-end systems.",
-        "Collaborated with designers to ensure a seamless user experience."
+        "Developed and maintained accounting software for chemical industry clients, handling customer and supplier management, financial reports (ledger, trial balance), and stock tracking.",
+        "Designed and optimized SQL Server databases, creating stored procedures, views, and complex queries for financial reports.",
+        "Built responsive web interfaces using ASP.NET WebForms and Bootstrap, improving cross-device usability.",
+        "Implemented client-side interactivity using JavaScript, jQuery, and AJAX, enhancing system performance.",
+        "Integrated SAP Crystal Reports for detailed financial and transactional reporting.",
+        "Developed WhatsApp API and email notification systems for real-time updates, improving communication and workflow.",
+        "Worked closely with cross-functional teams to ensure the software meets business requirements.",
+        "Participated in agile sprints and sprint planning meetings to streamline development."
       ]
     }
   ];
+  
 
   return (
     <section id="experience" className="section">
@@ -57,7 +30,7 @@ const Experience = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Work Experience</h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
           <p className="text-muted-foreground mt-6 max-w-2xl mx-auto">
-            My professional journey through various roles in the tech industry
+            My professional journey 
           </p>
         </div>
 
@@ -71,7 +44,7 @@ const Experience = () => {
               key={index}
               className={cn(
                 "relative mb-16 animate-slide-in",
-                index % 2 === 0 ? "sm:pr-10 sm:text-right" : "sm:pl-10"
+                index % 2 === 0 ? "sm:pr-10 sm:text-left" : "sm:pl-10"
               )}
               style={{ animationDelay: `${index * 100}ms` }}
             >
@@ -106,7 +79,7 @@ const Experience = () => {
                     <span>{experience.location}</span>
                   </div>
                   
-                  <ul className="space-y-2">
+                  <ul className="space-y-1">
                     {experience.description.map((item, i) => (
                       <li key={i} className="text-muted-foreground">
                         {item}
