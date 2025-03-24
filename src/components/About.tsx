@@ -15,8 +15,9 @@ const About = () => {
           <div className="lg:col-span-1 animate-slide-in">
             <div className="relative mx-auto w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden neo">
               <img
-                src="https://media.licdn.com/dms/image/v2/C5103AQHA5Qb-bdDhwQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1560153049846?e=1747872000&v=beta&t=hZXSNXFWanfaagZymIL0R3BVDk29Jjsd7XnoRMlew1w"
-                alt="Profile Photo"
+                              src="https://lh3.googleusercontent.com/a/ACg8ocL2VNtNIWV_tNWVfbqvyhfDn-wFUfP6WMEZQTg_gX05mwildopBLSS2iabDt0XfAqYwYhfvy3mJMT8aN6A5wEQFzA4JOEsxVA=s288-c-no"
+
+              alt="Profile Photo"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -32,7 +33,7 @@ const About = () => {
             <p className="text-muted-foreground mb-6">
             I am a detail-oriented and motivated software developer with over a year of experience specializing in ASP.NET WebForms, Microsoft SQL Server, and modern web technologies. I have worked extensively on accounting software solutions in the chemical industry, focusing on financial reporting, integration, and system optimization.
             With expertise in SAP Crystal Reports, WhatsApp API notifications, and email alerts, I develop solutions that enhance user engagement and improve system efficiency. My passion lies in building responsive, simple, and creative UI designs that are optimized for both desktop and mobile experiences.
-            Apart from coding, I love music, gardening, and traveling, and I enjoy exploring human psychology through storytelling.            </p>
+            Apart from this, I love music, photography, gardening, and traveling, and I enjoy exploring human psychology through storytelling.            </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               <div>
