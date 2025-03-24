@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import PhotoGallery from "@/components/PhotoGallery";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Experience />
       <Skills />
       <Projects />
+      <PhotoGallery />
       <Contact />
     </Layout>
   );

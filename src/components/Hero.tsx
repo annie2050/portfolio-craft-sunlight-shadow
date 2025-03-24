@@ -58,7 +58,7 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-primary/5 animate-pulse-slow" />
               <div className="absolute inset-2 rounded-full overflow-hidden neo">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/C5103AQHA5Qb-bdDhwQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1560153049846?e=1747872000&v=beta&t=hZXSNXFWanfaagZymIL0R3BVDk29Jjsd7XnoRMlew1w"
+                  src="https://lh3.googleusercontent.com/a/ACg8ocKFEc9NvQZhNxYilGlulPFzR2tz1-txiNj89CRIZBJmJ5ILiVIaqQ=s288-c-no"
                   alt="Ankita Kanwar"
                   className="w-full h-full object-cover"
                 />
