@@ -1,4 +1,3 @@
-
 import { FileText, User } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -15,25 +14,27 @@ const About = () => {
           <div className="lg:col-span-1 animate-slide-in">
             <div className="relative mx-auto w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden neo">
               <img
-                              src="https://lh3.googleusercontent.com/a/ACg8ocL2VNtNIWV_tNWVfbqvyhfDn-wFUfP6WMEZQTg_gX05mwildopBLSS2iabDt0XfAqYwYhfvy3mJMT8aN6A5wEQFzA4JOEsxVA=s288-c-no"
-
-              alt="Profile Photo"
+                src="https://lh3.googleusercontent.com/a/ACg8ocKFEc9NvQZhNxYilGlulPFzR2tz1-txiNj89CRIZBJmJ5ILiVIaqQ=s288-c-no"
+                alt="Ankita Kanwar Profile Photo"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
           <div className="lg:col-span-2 animate-slide-in delay-100">
-            <h3 className="text-2xl font-semibold mb-4">
-              Software Engineer
-            </h3>
+            <h3 className="text-2xl font-semibold mb-4">Software Engineer</h3>
             <p className="text-muted-foreground mb-6">
-            💻 Hi, I’m Ankita Kanwar! A software developer passionate about building efficient, user-friendly web applications using ASP.NET and SQL Server.            </p>
-            
+              💻 Hi, I’m Ankita Kanwar! A software developer passionate about building efficient, user-friendly web applications using ASP.NET and SQL Server.
+            </p>
             <p className="text-muted-foreground mb-6">
-            I am a detail-oriented and motivated software developer with over a year of experience specializing in ASP.NET WebForms, Microsoft SQL Server, and modern web technologies. I have worked extensively on accounting software solutions in the chemical industry, focusing on financial reporting, integration, and system optimization.
-            With expertise in SAP Crystal Reports, WhatsApp API notifications, and email alerts, I develop solutions that enhance user engagement and improve system efficiency. My passion lies in building responsive, simple, and creative UI designs that are optimized for both desktop and mobile experiences.
-            Apart from this, I love music, photography, gardening, and traveling, and I enjoy exploring human psychology through storytelling.            </p>
+              I am a detail-oriented and motivated software developer with over a year of experience specializing in ASP.NET WebForms, Microsoft SQL Server, and modern web technologies. I have worked extensively on accounting software solutions in the chemical industry, focusing on financial reporting, integration, and system optimization.
+            </p>
+            <p className="text-muted-foreground mb-6">
+              With expertise in SAP Crystal Reports, WhatsApp API notifications, and email alerts, I develop solutions that enhance user engagement and improve system efficiency. My passion lies in building responsive, simple, and creative UI designs that are optimized for both desktop and mobile experiences.
+            </p>
+            <p className="text-muted-foreground mb-6">
+              Apart from this, I love music, photography, gardening, and traveling, and I enjoy exploring human psychology through storytelling.
+            </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               <div>
@@ -69,7 +70,9 @@ const About = () => {
                 LinkedIn
               </a>
               <a
-                href="#"
+                href="your_resume_link_here"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={cn(
                   "inline-flex items-center justify-center gap-2 rounded-md font-medium transition-colors",
                   "border border-input bg-background shadow-sm hover:bg-accent",

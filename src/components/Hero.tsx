@@ -57,11 +57,11 @@ const Hero = () => {
             <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80">
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 to-primary/5 animate-pulse-slow" />
               <div className="absolute inset-2 rounded-full overflow-hidden neo">
-                <img 
-                src="https://lh3.googleusercontent.com/a/ACg8ocL2VNtNIWV_tNWVfbqvyhfDn-wFUfP6WMEZQTg_gX05mwildopBLSS2iabDt0XfAqYwYhfvy3mJMT8aN6A5wEQFzA4JOEsxVA=s288-c-no"
-                  alt="Ankita Kanwar"
-                  className="w-full h-full object-cover"
-                />
+              <img
+                src="https://lh3.googleusercontent.com/a/ACg8ocKFEc9NvQZhNxYilGlulPFzR2tz1-txiNj89CRIZBJmJ5ILiVIaqQ=s288-c-no"
+                alt="Ankita Kanwar Profile Photo"
+                className="w-full h-full object-cover"
+              />
               </div>
             </div>
           </div>
